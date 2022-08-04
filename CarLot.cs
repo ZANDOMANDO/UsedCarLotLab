@@ -56,7 +56,8 @@ namespace UsedCarLotLab
         {
             Console.WriteLine("What car would you like to buy?");
             string purchaseCar = Console.ReadLine();
-            var carList = listOfCars.FindAll(car => car.Make.ToLower() == purchaseCar);
+            var carList = listOfCars.RemoveAll(car => car.Make.ToLower() == purchaseCar);
+
         }
     }
 }
