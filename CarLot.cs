@@ -8,6 +8,6 @@ namespace UsedCarLotLab
 {
     public abstract class CarLot
     {
-      
+        
     }
 }

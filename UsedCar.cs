@@ -14,5 +14,10 @@ namespace UsedCarLotLab
             Mileage = _mileage; 
         }      
         public double Mileage { get; set; }
+
+        public override string ToString()
+        {
+            return $"{Make}, {Model}";
+        }
     }     
 }
