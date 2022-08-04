@@ -20,4 +20,8 @@ var listOfVehicles = new List<Car>() { cruze, rav4, flex, aventador, modelSPlaid
 //}
 
 
-CarLot.listCars(listOfVehicles);
+CarLot.ListCars(listOfVehicles);
+
+CarLot.AddNewCar(listOfVehicles);
+
+CarLot.ListCars(listOfVehicles);
